@@ -1,0 +1,69 @@
+{"delegateUser":[
+                 [
+                 {"info1":"","info2":"账号管理","pushId":"mineToMemberManager"}
+                 ],
+                 
+                 [
+                  {"icon1":"w_icon_dfk","info":"待付款","pushId":"mineToOrderListVC"},
+                  {"icon1":"w_icon_jxz","info":"待收货","pushId":"mineToOrderListVC"},
+                  {"icon1":"w_icon_ywc","info":"已完成","pushId":"mineToOrderListVC"},
+                  {"icon1":"w_icon_th","info":"售后/退货","pushId":"toAfterMarketVC"}
+                 ],
+                 [
+                  {"info":"余额","pushId":"mineToMyWallet"},
+                  {"info":"可提现","pushId":"mineToMyWallet"},
+                  {"info":"优惠券","pushId":"mineToCouponVC"},
+                  {"icon1":"w_icon_txjl","info":"提现记录","pushId":"mineVCToTradeRecordVC"},
+                  {"icon1":"w_icon_jxjl","info":"交易记录","pushId":"mineVCToTradeRecordVC"}
+                 ],
+                 [
+                  {"info":"收益(元)","pushId":"mineToAgentVC"},
+                  {"info":"订单(个)","pushId":"mineToAgentVC"},
+                  {"info":"人数(人)","pushId":"mineToAgentVC"}
+                 ],
+                 [
+                  {"icon1":"w_icon_shdz","info":"收货地址","pushId":"mineToAddressVC"},
+                  {"icon1":"w_icon_wdpj","info":"我的评价","pushId":"mineToMyCommentListVC"},
+                  {"icon1":"w_icon_wdsc","info":"我的收藏","pushId":"mineToMyFavoriteVC"},
+                  {"icon1":"w_icon_lljl","info":"浏览记录","pushId":"mineToMyFavoriteVC"},
+                  {"icon1":"w_icon_xxtz","info":"消息通知","pushId":"mineToMessageVC"},
+                  {"icon1":"w_icon_gywm","info":"关于我们","pushId":"mineToAboutUsVC"},
+                  {"icon1":"w_icon_yjfk","info":"意见反馈","pushId":"mineToFeedBackVC"},
+                  {"icon1":"w_icon_sz","info":"设置","pushId":"mineVCToSettingVC"}
+                 ]
+                 
+                ],
+
+"ordinaryUser":[
+                    [
+                     {"info1":"","info2":"账号管理","pushId":"mineToMemberManager"}
+                     ],
+                    
+                    [
+                     {"icon1":"w_icon_dfk","info":"待付款","pushId":"mineToOrderListVC"},
+                     {"icon1":"w_icon_jxz","info":"待收货","pushId":"mineToOrderListVC"},
+                     {"icon1":"w_icon_ywc","info":"已完成","pushId":"mineToOrderListVC"},
+                     {"icon1":"w_icon_th","info":"售后/退货","pushId":"toAfterMarketVC"}
+                     ],
+                    [
+                     {"info":"余额","pushId":"mineToMyWallet"},
+                     {"info":"可提现","pushId":"mineToMyWallet"},
+                     {"info":"优惠券","pushId":"mineToCouponVC"},
+                     {"icon1":"w_icon_txjl","info":"提现记录","pushId":"mineVCToTradeRecordVC"},
+                     {"icon1":"w_icon_jxjl","info":"交易记录","pushId":"mineVCToTradeRecordVC"}
+                     ],
+                    [
+                     ],
+                    [
+                     {"icon1":"w_icon_shdz","info":"收货地址","pushId":"mineToAddressVC"},
+                     {"icon1":"w_icon_wdpj","info":"我的评价","pushId":"mineToMyCommentListVC"},
+                     {"icon1":"w_icon_wdsc","info":"我的收藏","pushId":"mineToMyFavoriteVC"},
+                     {"icon1":"w_icon_lljl","info":"浏览记录","pushId":"mineToMyFavoriteVC"},
+                     {"icon1":"w_icon_xxtz","info":"消息通知","pushId":"mineToMessageVC"},
+                     {"icon1":"w_icon_gywm","info":"关于我们","pushId":"mineToAboutUsVC"},
+                     {"icon1":"w_icon_yjfk","info":"意见反馈","pushId":"mineToFeedBackVC"},
+                     {"icon1":"w_icon_sz","info":"设置","pushId":"mineVCToSettingVC"}
+                     ]
+                    
+                    ]
+}

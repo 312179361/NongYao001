@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view hidden="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="KongImageView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s_pic_ksj.png" translatesAutoresizingMaskIntoConstraints="NO" id="atR-8N-gJy">
+                    <rect key="frame" x="70" y="166" width="234" height="175"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvw-uN-avq" customClass="IndexButton">
+                    <rect key="frame" x="50" y="421" width="275" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="HuR-cq-xCK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="重新加载"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjA-FU-2tE">
+                    <rect key="frame" x="50" y="351" width="275" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="t2N-Dc-gp9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZjA-FU-2tE" secondAttribute="trailing" constant="50" id="2Sm-NH-wK1"/>
+                <constraint firstAttribute="trailing" secondItem="Tvw-uN-avq" secondAttribute="trailing" constant="50" id="4wJ-kM-I5l"/>
+                <constraint firstItem="atR-8N-gJy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-80" id="Bbd-aR-RCj"/>
+                <constraint firstItem="Tvw-uN-avq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="Shb-n2-NhS"/>
+                <constraint firstItem="ZjA-FU-2tE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="Sy5-nh-YUG"/>
+                <constraint firstItem="atR-8N-gJy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="d1U-UD-XKf"/>
+                <constraint firstItem="Tvw-uN-avq" firstAttribute="top" secondItem="ZjA-FU-2tE" secondAttribute="bottom" constant="20" id="fbB-x1-W8f"/>
+                <constraint firstItem="ZjA-FU-2tE" firstAttribute="top" secondItem="atR-8N-gJy" secondAttribute="bottom" constant="10" id="vn7-MX-vhr"/>
+            </constraints>
+            <connections>
+                <outlet property="reloadAgainButton" destination="Tvw-uN-avq" id="YeY-Wl-VFO"/>
+                <outlet property="showImageView" destination="atR-8N-gJy" id="5Wy-1A-Lm4"/>
+                <outlet property="showMsgLabel" destination="ZjA-FU-2tE" id="Fqs-aw-mG4"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="s_pic_ksj.png" width="234" height="175"/>
+    </resources>
+</document>

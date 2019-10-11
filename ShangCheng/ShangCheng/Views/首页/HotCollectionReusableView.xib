@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="57"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5e-zL-Qbc">
+                    <rect key="frame" x="0.0" y="0.0" width="322" height="17"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="fti-Cu-SbM"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s_icon_rqrm.png" translatesAutoresizingMaskIntoConstraints="NO" id="f9D-Yt-bwy">
+                    <rect key="frame" x="11" y="28" width="18" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="VPF-1Z-1L3"/>
+                        <constraint firstAttribute="height" constant="18" id="dOa-w4-PcV"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人气热卖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVL-1W-ccK">
+                    <rect key="frame" x="33" y="22" width="269" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="p4N-JB-hbf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="o5e-zL-Qbc" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="3ei-Dr-fd9"/>
+                <constraint firstItem="lVL-1W-ccK" firstAttribute="top" secondItem="o5e-zL-Qbc" secondAttribute="bottom" constant="5" id="D2N-H6-EdV"/>
+                <constraint firstItem="lVL-1W-ccK" firstAttribute="leading" secondItem="f9D-Yt-bwy" secondAttribute="trailing" constant="4" id="Egd-W0-ruY"/>
+                <constraint firstItem="o5e-zL-Qbc" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="HMK-V1-CzC"/>
+                <constraint firstAttribute="trailing" secondItem="o5e-zL-Qbc" secondAttribute="trailing" id="J7r-bM-CEx"/>
+                <constraint firstAttribute="trailing" secondItem="lVL-1W-ccK" secondAttribute="trailing" constant="20" id="RIF-wx-sou"/>
+                <constraint firstItem="f9D-Yt-bwy" firstAttribute="top" secondItem="o5e-zL-Qbc" secondAttribute="bottom" constant="11" id="euQ-0b-B12"/>
+                <constraint firstItem="f9D-Yt-bwy" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="11" id="y00-nd-ZJk"/>
+            </constraints>
+            <point key="canvasLocation" x="26" y="79"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="s_icon_rqrm.png" width="18" height="18"/>
+    </resources>
+</document>

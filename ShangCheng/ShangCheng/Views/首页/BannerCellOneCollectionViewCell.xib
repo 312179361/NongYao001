@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="bannerCellOne" id="gTV-IL-0wX" customClass="BannerCellOneCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="354"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="354"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="oVj-d9-L7A">
+                        <rect key="frame" x="0.0" y="0.0" width="344" height="308"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ufr-22-aWG">
+                        <rect key="frame" x="15" y="318" width="314" height="36"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNC-b7-sCn">
+                                <rect key="frame" x="229" y="0.0" width="85" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="hIU-7w-sgh"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="btn_ss.png"/>
+                                <connections>
+                                    <action selector="searchButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="cRa-9H-niE"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tBs-if-2KJ">
+                                <rect key="frame" x="10" y="0.0" width="219" height="36"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="gTV-IL-0wX" id="9DR-oa-Tco"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tBs-if-2KJ" firstAttribute="leading" secondItem="Ufr-22-aWG" secondAttribute="leading" constant="10" id="132-OF-Vf2"/>
+                            <constraint firstAttribute="bottom" secondItem="dNC-b7-sCn" secondAttribute="bottom" id="3yO-Ln-4wC"/>
+                            <constraint firstItem="dNC-b7-sCn" firstAttribute="leading" secondItem="tBs-if-2KJ" secondAttribute="trailing" id="Ksd-uW-y5l"/>
+                            <constraint firstAttribute="bottom" secondItem="tBs-if-2KJ" secondAttribute="bottom" id="LUM-52-h3s"/>
+                            <constraint firstAttribute="height" constant="36" id="RO3-fc-4xV"/>
+                            <constraint firstItem="tBs-if-2KJ" firstAttribute="top" secondItem="Ufr-22-aWG" secondAttribute="top" id="ZrV-WY-H8X"/>
+                            <constraint firstItem="dNC-b7-sCn" firstAttribute="top" secondItem="Ufr-22-aWG" secondAttribute="top" id="oDU-VI-NRQ"/>
+                            <constraint firstAttribute="trailing" secondItem="dNC-b7-sCn" secondAttribute="trailing" id="x5i-Gq-HTX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                <color key="value" red="0.81568627450980391" green="0.090196078431372548" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Ufr-22-aWG" firstAttribute="top" secondItem="oVj-d9-L7A" secondAttribute="bottom" constant="10" id="CaX-YK-Q3Y"/>
+                <constraint firstItem="Ufr-22-aWG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="Hdy-yk-wZ3"/>
+                <constraint firstAttribute="bottom" secondItem="Ufr-22-aWG" secondAttribute="bottom" id="KNG-l0-rhh"/>
+                <constraint firstItem="oVj-d9-L7A" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NGT-2K-K4Y"/>
+                <constraint firstAttribute="trailing" secondItem="Ufr-22-aWG" secondAttribute="trailing" constant="15" id="Uyx-ja-4Sj"/>
+                <constraint firstItem="oVj-d9-L7A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rIM-Hm-ZeC"/>
+                <constraint firstAttribute="trailing" secondItem="oVj-d9-L7A" secondAttribute="trailing" id="ruU-he-OZx"/>
+            </constraints>
+            <size key="customSize" width="344" height="354"/>
+            <connections>
+                <outlet property="bannerImageView" destination="oVj-d9-L7A" id="SxV-Pl-mkc"/>
+                <outlet property="searchButton" destination="dNC-b7-sCn" id="mWS-j2-FfO"/>
+                <outlet property="searchTextField" destination="tBs-if-2KJ" id="xBX-TJ-evB"/>
+            </connections>
+            <point key="canvasLocation" x="169" y="61"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="banner.png" width="360" height="291"/>
+        <image name="btn_ss.png" width="87" height="37"/>
+    </resources>
+</document>

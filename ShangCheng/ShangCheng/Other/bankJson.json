@@ -1,0 +1,23 @@
+[
+	
+    {"img":"w_icon_nyyh",
+	"bankName":"中国农业银行",
+	"bankNumber":"6230 5207 1003 2884 472",
+    "isSelect":"YES"},
+ 
+    {"img":"w_icon_jsyh",
+	"bankName":"中国建设银行",
+	"bankNumber":"6210 8124 3003 5480 108",
+    "isSelect":"NO"},
+ 
+    {"img":"w_icon_gsyh",
+	"bankName":"中国工商银行",
+	"bankNumber":"6212 2617 0203 7455 581",
+    "isSelect":"NO"},
+
+	{"img":"w_icon_xys",
+	"bankName":"中国农村信用社",
+	"bankNumber":"6230 5910 0711 4025 67",
+    "isSelect":"NO"}
+
+]

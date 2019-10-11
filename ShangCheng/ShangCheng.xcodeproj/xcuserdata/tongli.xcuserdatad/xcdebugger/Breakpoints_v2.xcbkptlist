@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "19503F88-1C60-49A4-B424-0C4C57E195C5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "1091FA77-3087-4C0F-B357-6968948EAC74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F845467B-34F8-424E-B163-7932601C6660"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/Utils/Manager.m"
+            timestampString = "590386642.476408"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2611"
+            endingLineNumber = "2611"
+            landmarkName = "-httpUserAgentCashApplicationWithCashType:withUserId:withType:withBankName:withName:withCode:withAmount:withNote:withAgentCashSuccess:withAgentCashFail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5E2B8B5-89B8-4245-8622-1D293BB0C4FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/Utils/Manager.m"
+            timestampString = "590386642.476981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2618"
+            endingLineNumber = "2618"
+            landmarkName = "-httpUserAgentCashApplicationWithCashType:withUserId:withType:withBankName:withName:withCode:withAmount:withNote:withAgentCashSuccess:withAgentCashFail:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C33E982-8DF9-4FD9-995E-3CF98D773E84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/Utils/Manager.m"
+            timestampString = "590386642.477399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2624"
+            endingLineNumber = "2624"
+            landmarkName = "-httpUserAgentCashApplicationWithCashType:withUserId:withType:withBankName:withName:withCode:withAmount:withNote:withAgentCashSuccess:withAgentCashFail:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C33E982-8DF9-4FD9-995E-3CF98D773E84 - 97af181c869f9922"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Manager httpUserAgentCashApplicationWithCashType:withUserId:withType:withBankName:withName:withCode:withAmount:withNote:withAgentCashSuccess:withAgentCashFail:]"
+                  moduleName = "ShangCheng"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongli/Desktop/ShangCheng/ShangCheng/Utils/Manager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2624"
+                  endingLineNumber = "2624"
+                  offsetFromSymbolStart = "1506">
+               </Location>
+               <Location
+                  uuid = "6C33E982-8DF9-4FD9-995E-3CF98D773E84 - ae40ea2606d8d866"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__162-[Manager httpUserAgentCashApplicationWithCashType:withUserId:withType:withBankName:withName:withCode:withAmount:withNote:withAgentCashSuccess:withAgentCashFail:]_block_invoke"
+                  moduleName = "ShangCheng"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongli/Desktop/ShangCheng/ShangCheng/Utils/Manager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2626"
+                  endingLineNumber = "2626"
+                  offsetFromSymbolStart = "69">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9C570D9-D374-4B09-97FB-F2A32438A065"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/ViewControllers/&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;/AgentCashApplicationViewController.m"
+            timestampString = "543746302.223083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
+            landmarkName = "-enterAgentCashButtonAction:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9C570D9-D374-4B09-97FB-F2A32438A065 - a1a97d17274b477f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AgentCashApplicationViewController enterAgentCashButtonAction:]"
+                  moduleName = "ShangCheng"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongli/Desktop/ShangCheng/ShangCheng/ViewControllers/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/AgentCashApplicationViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "303"
+                  endingLineNumber = "303"
+                  offsetFromSymbolStart = "2476">
+               </Location>
+               <Location
+                  uuid = "F9C570D9-D374-4B09-97FB-F2A32438A065 - eb2d11eb166863fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[AgentCashApplicationViewController enterAgentCashButtonAction:]_block_invoke"
+                  moduleName = "ShangCheng"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tongli/Desktop/ShangCheng/ShangCheng/ViewControllers/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83/AgentCashApplicationViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "303"
+                  endingLineNumber = "303"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70D257C7-B7A1-4BB1-BAD8-800F3BFB920C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/ViewControllers/&#x4e2a;&#x4eba;&#x4e2d;&#x5fc3;/AgentCashApplicationViewController.m"
+            timestampString = "543746342.3450021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "-enterAgentCashButtonAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C53ACCC8-E774-4886-9C86-54FB2EECBBC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/AppDelegate.m"
+            timestampString = "575967418.218269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "-onResp:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "685D6554-65AD-4651-9666-FDE989BF9191"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/AppDelegate.m"
+            timestampString = "575967418.218384"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "@implementation AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BEB6EBC-4D94-4D16-9D97-071C29DBD05C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/AppDelegate.m"
+            timestampString = "575967418.218473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "-application:openURL:options:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22B81F85-6E74-4EF2-9A2B-5040C5EEFF7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/AppDelegate.m"
+            timestampString = "575967418.218551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "-application:openURL:sourceApplication:annotation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5898FA7D-69AE-4BF0-BDCE-84B9C47EEEAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/ViewControllers/&#x9996;&#x9875;/BannerShopViewController.m"
+            timestampString = "590386716.532418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "-httpActivityBanner"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "243F7A92-DBC4-4E01-972C-7B349BC0D7DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShangCheng/ViewControllers/&#x9996;&#x9875;/BannerShopViewController.m"
+            timestampString = "590386723.037235"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "-httpActivityBanner"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

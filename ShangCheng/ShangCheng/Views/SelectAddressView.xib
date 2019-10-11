@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectAddressView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oIB-jG-aMS" userLabel="lightGrayView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JXZ-4m-0SF">
+                    <rect key="frame" x="0.0" y="406" width="375" height="261"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v9p-VS-GAh">
+                            <rect key="frame" x="0.0" y="45" width="375" height="216"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="216" id="gOb-mo-ejr"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="Fgj-NZ-JiW"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="eSc-bC-FlL"/>
+                            </connections>
+                        </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQL-ba-b1S">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="aIs-FO-au2"/>
+                            </constraints>
+                            <state key="normal" title="取消"/>
+                            <connections>
+                                <action selector="cancelSelectAreaButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="F2P-sU-fvC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2p-8K-14Y">
+                            <rect key="frame" x="305" y="0.0" width="70" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="pEz-na-BPx"/>
+                            </constraints>
+                            <state key="normal" title="保存"/>
+                            <connections>
+                                <action selector="enterSelectAreaButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="A8A-nm-RZV"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择地区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evc-PE-Y4m">
+                            <rect key="frame" x="70" y="0.0" width="235" height="45"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="A2p-8K-14Y" firstAttribute="top" secondItem="JXZ-4m-0SF" secondAttribute="top" id="1oR-1I-HQv"/>
+                        <constraint firstItem="v9p-VS-GAh" firstAttribute="top" secondItem="NQL-ba-b1S" secondAttribute="bottom" id="3tv-g0-nUM"/>
+                        <constraint firstItem="v9p-VS-GAh" firstAttribute="top" secondItem="evc-PE-Y4m" secondAttribute="bottom" id="5Dl-Va-Ek7"/>
+                        <constraint firstItem="v9p-VS-GAh" firstAttribute="leading" secondItem="JXZ-4m-0SF" secondAttribute="leading" id="5PP-cP-CDY"/>
+                        <constraint firstAttribute="trailing" secondItem="A2p-8K-14Y" secondAttribute="trailing" id="5S4-j9-a8L"/>
+                        <constraint firstItem="v9p-VS-GAh" firstAttribute="top" secondItem="A2p-8K-14Y" secondAttribute="bottom" id="6Qc-pp-T4a"/>
+                        <constraint firstItem="A2p-8K-14Y" firstAttribute="leading" secondItem="evc-PE-Y4m" secondAttribute="trailing" id="Efs-wn-asE"/>
+                        <constraint firstItem="NQL-ba-b1S" firstAttribute="top" secondItem="JXZ-4m-0SF" secondAttribute="top" id="QuH-f8-AVc"/>
+                        <constraint firstItem="evc-PE-Y4m" firstAttribute="top" secondItem="JXZ-4m-0SF" secondAttribute="top" id="Qx8-L0-X0j"/>
+                        <constraint firstAttribute="height" constant="261" id="VJd-pv-4Je"/>
+                        <constraint firstItem="NQL-ba-b1S" firstAttribute="leading" secondItem="JXZ-4m-0SF" secondAttribute="leading" id="ev9-0i-Kaz"/>
+                        <constraint firstAttribute="bottom" secondItem="v9p-VS-GAh" secondAttribute="bottom" id="uwa-1c-E5o"/>
+                        <constraint firstAttribute="trailing" secondItem="v9p-VS-GAh" secondAttribute="trailing" id="w3s-Ne-kD0"/>
+                        <constraint firstItem="evc-PE-Y4m" firstAttribute="leading" secondItem="NQL-ba-b1S" secondAttribute="trailing" id="wIu-Qe-b9z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oIB-jG-aMS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="86h-zu-tXw"/>
+                <constraint firstAttribute="trailing" secondItem="JXZ-4m-0SF" secondAttribute="trailing" id="8ma-wz-pp7"/>
+                <constraint firstAttribute="trailing" secondItem="oIB-jG-aMS" secondAttribute="trailing" id="LT3-mU-coN"/>
+                <constraint firstAttribute="bottom" secondItem="JXZ-4m-0SF" secondAttribute="bottom" id="MdB-aa-1kV"/>
+                <constraint firstItem="JXZ-4m-0SF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cfw-Tt-zK3"/>
+                <constraint firstAttribute="bottom" secondItem="oIB-jG-aMS" secondAttribute="bottom" id="jmY-T3-Wxz"/>
+                <constraint firstItem="oIB-jG-aMS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rbd-4y-hMf"/>
+            </constraints>
+            <connections>
+                <outlet property="areaPickView" destination="v9p-VS-GAh" id="gfI-sQ-mL2"/>
+            </connections>
+        </view>
+    </objects>
+</document>
